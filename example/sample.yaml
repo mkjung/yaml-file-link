@@ -1,0 +1,14 @@
+# Example YAML file demonstrating file links
+# Format: filepath:line_number
+
+# Test files in the project
+test_typescript: test/test.ts:10
+test_javascript: test/another file.js:15
+test_space_path: src/folder with space/file.ts:10
+test_text_file: example/test file.txt:5
+
+# Multiple links in same file
+test_files:
+  - first: test/test.ts:1
+  - second: test/test.ts:5
+  - third: test/another file.js:10
